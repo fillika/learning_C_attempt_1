@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include "user_greetings.h"
 
 int userGreetings(char *nickname)
 {

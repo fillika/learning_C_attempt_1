@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "userGreetings.h"
+#include "user_greetings.h"
 #include "attack.h"
 
 int main()
