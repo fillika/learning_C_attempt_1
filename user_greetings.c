@@ -2,13 +2,13 @@
 #include <string.h>
 #include "user_greetings.h"
 
-int userGreetings(char *nickname)
+int userGreetings(char *nickname, int size)
 {
     int lastChar;
     char c;
 
     printf("What is your name?\n");
-    fgets(nickname, sizeof(nickname), stdin);
+    fgets(nickname, size, stdin);
 
     lastChar = strlen(nickname) - 1;
     if (nickname[lastChar] == '\n')

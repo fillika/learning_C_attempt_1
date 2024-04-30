@@ -2,13 +2,15 @@
 #include "user_greetings.h"
 #include "attack.h"
 
+int NICKNAME_MAX_SIZE = 20;
+
 int main()
 {
     int playerGold = 0;
     char action;
-    char nickname[20];
+    char nickname[NICKNAME_MAX_SIZE];
 
-    userGreetings(nickname);
+    userGreetings(nickname, NICKNAME_MAX_SIZE);
 
     printf("You have been attacked by goblin.\n");
     printf("Press (A)ttack or (R)un.\n");

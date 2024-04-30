@@ -1,6 +1,6 @@
 #ifndef USER_GREETINGS_H
 #define USER_GREETINGS_H
 
-int userGreetings();
+int userGreetings(char *nickname, int size);
 
 #endif
